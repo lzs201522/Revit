@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+        <AddIn Type="Command">
+        <!-- <下面一条语句中的路径是项目编译（生成）时产生的dll的路径> -->
+                <Assembly>D:\Users\gzt121\source\repos\Addin\Addin\bin\Debug\Addin.dll</Assembly>
+                <!-- <AddInId>下面一条语句是你的项目的GUID码</AddInId> -->
+                <AddInId>{292BD1B6-3C2A-4E8C-A30B-F234EE13146C}</AddInId>
+                <!-- <下面一条语句中的类名是创建项目时的类名> -->
+                <FullClassName>Xincubus.Test1</FullClassName>
+                <!-- <下面一条语句中的在revit中显示的插件名称> -->
+                <Text>Addin</Text>
+                <VendorId>NAME</VendorId>
+                <VendorDescription>Your Company Information</VendorDescription>
+        </AddIn>
+</RevitAddIns>
+
+
+
